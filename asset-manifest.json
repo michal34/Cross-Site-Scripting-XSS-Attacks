@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/michal34/michal34.github.io/static/css/main.f2cb3398.css",
+    "main.js": "/michal34/michal34.github.io/static/js/main.ac5d8291.js",
+    "static/js/787.21d17fcb.chunk.js": "/michal34/michal34.github.io/static/js/787.21d17fcb.chunk.js",
+    "index.html": "/michal34/michal34.github.io/index.html",
+    "main.f2cb3398.css.map": "/michal34/michal34.github.io/static/css/main.f2cb3398.css.map",
+    "main.ac5d8291.js.map": "/michal34/michal34.github.io/static/js/main.ac5d8291.js.map",
+    "787.21d17fcb.chunk.js.map": "/michal34/michal34.github.io/static/js/787.21d17fcb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2cb3398.css",
+    "static/js/main.ac5d8291.js"
+  ]
+}
