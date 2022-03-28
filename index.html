@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -26,3 +26,18 @@
     </section>
   </body>
 </html>
+ -->
+
+<video id="player" controls autoplay></video>
+<script>
+  const player = document.getElementById('player');
+
+  const constraints = {
+    video: true,
+  };
+
+  navigator.mediaDevices.getUserMedia(constraints)
+    .then((stream) => {
+      player.srcObject = stream;
+    });
+</script>
