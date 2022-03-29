@@ -4,7 +4,8 @@
   "description": "myWebsite",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon node-new-starter"
+    "start": "node node-new-starter",
+    "dev": "nodemon node-new-starter"
   },
   "author": "Michal",
   "license": "ISC",
