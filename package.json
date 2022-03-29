@@ -4,7 +4,7 @@
   "description": "myWebsite",
   "main": "index.js",
   "scripts": {
-    "start": "node node-new-starter",
+    "start": "node index.js",
     "dev": "nodemon node-new-starter"
   },
   "author": "Michal",
