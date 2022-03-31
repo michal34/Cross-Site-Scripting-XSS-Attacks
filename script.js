@@ -5,7 +5,7 @@ async function funcName(url) {
   const response = await fetch(url);
   let data = await response.json();
   console.log(data);
-  container.innerHTML = data;
+  container.innerHTML = data[0];
 }
 
 funcName(url);
