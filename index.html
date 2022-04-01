@@ -2,13 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Cross-Site Scripting (XSS) Attacks</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Witam</h1>
-    <div id="container"></div>
-    <script src="./script.js"></script>
+    <section id="user-input">
+      <form>
+        <div class="form-control">
+          <label for="user-message">Your Message</label>
+          <textarea id="user-message" name="user-message"></textarea>
+        </div>
+        <div class="form-control">
+          <label for="message-image">Message Image</label>
+          <input type="text" id="message-image" name="message-image" />
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <section id="user-messages">
+      <ul></ul>
+    </section>
   </body>
+  <script src="./script.js"></script>
 </html>
