@@ -55,7 +55,7 @@ function formSubmitHandler(event) {
 userMessageForm.addEventListener("submit", formSubmitHandler);
 
 const fetchData = () => {
-  fetch("https://herokunodeapp12.herokuapp.com/data")
+  fetch("https://herokunodeapp12.herokuapp.com/data/get")
     .then((response) => response.json())
     .then((data) => {
       data.data.map((dat) => {
