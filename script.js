@@ -71,7 +71,7 @@ const fetchData = () => {
 
 const addData = () => {
   const data = { userMessages2 };
-  fetch("http://localhost:3000/wyslij/", {
+  fetch("https://herokunodeapp12.herokuapp.com/data/post", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
