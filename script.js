@@ -70,13 +70,12 @@ const fetchData = () => {
 };
 
 const addData = () => {
-  const data = { userMessages2 };
   fetch("https://herokunodeapp12.herokuapp.com/data/send", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify(data),
+    body: JSON.stringify(userMessages2),
   });
 };
 fetchData();
